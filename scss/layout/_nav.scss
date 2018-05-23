@@ -1,0 +1,42 @@
+//===================================
+//NAV
+//===================================
+
+#nav {
+  width:1200px;
+  margin:0px auto;
+}
+
+.container {
+  display:flex;
+  width:700px;
+  height:80px;
+  background-color:#eeea3a;
+  margin:100px auto 0 auto;
+  padding:0;
+}
+
+.lift {
+  background-color:#fff;
+  display:inline-block;
+  width:120px;
+  height:80px;
+  text-align:center;
+  transition: transform .4s ease-in-out;
+  line-height:75px;
+}
+
+.blurb {
+  color:#000;
+  font-size:.95em;
+  font-family: "BentonSans", sans-serif;
+}
+
+.lift:hover {
+  transform: translate(0px, -20px);
+  cursor:pointer;
+}
+
+/*li:nth-child(-n+1), :nth-child(3n+0) {
+    margin-right:10px;
+}*/
